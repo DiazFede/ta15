@@ -1,0 +1,31 @@
+/* Corregir la regla .para */
+.para {
+    font-size: 22px;
+    font-weight: 800; /* Añadido para corregir el peso de la fuente */
+}
+
+/* Corregir la regla .button */
+.button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold; /* Añadido para corregir el peso de la fuente */
+}
+
+.confirm {
+    background: green;
+    color: white;
+}
+
+/* Mover la regla .small-para abajo para aplicar correctamente */
+.small-para {
+    font-size: 14px;
+    font-weight: 800;
+}
+
+/* Asegurar que los div.text tengan la especificidad correcta */
+div.text {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: 100;
+}
